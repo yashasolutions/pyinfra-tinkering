@@ -1,0 +1,7 @@
+---
+version: 3
+
+tasks:
+  default:
+    cmds:
+      - pyinfra inventory.py ops.py
